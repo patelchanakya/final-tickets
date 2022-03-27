@@ -1,9 +1,8 @@
 import React from "react";
 import { useState } from "react";
-import { ethers, BigNumber, Signer } from "ethers";
+import { ethers, BigNumber } from "ethers";
 import lastTicketNFT from "../LastTicketNFT.json";
 import { Box, Button, Flex, Input, Text, Spacer } from "@chakra-ui/react";
-import { EtherscanProvider } from "@ethersproject/providers";
 
 const lastTicketNFTAddress = "0x04026698f77d0a3660aCa74Be614C65a08788FFC";
 
