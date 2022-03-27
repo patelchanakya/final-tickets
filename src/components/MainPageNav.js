@@ -18,7 +18,7 @@ const MainPageNav = ({ accounts, setAccounts }) => {
   return (
     <Flex justify="space-between" align="center" padding="30px">
       <Flex justify="space-between" align="center" padding="0px 75px">
-        <Link href="https://www.twitter.com">
+        <Link href="https://www.twitter.com/chanakyeah">
           <Image src={Twitter} boxSize="42px" margin="0 15px" />
         </Link>
         <Link href="https://www.gmail.com">
