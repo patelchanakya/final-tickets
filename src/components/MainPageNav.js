@@ -15,6 +15,8 @@ const MainPageNav = ({ accounts, setAccounts }) => {
     }
   }
 
+  // open email client on click
+
   return (
     <Flex justify="space-between" align="center" padding="30px">
       <Flex justify="space-between" align="center" padding="0px 75px">
