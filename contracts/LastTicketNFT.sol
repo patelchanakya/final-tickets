@@ -17,10 +17,10 @@ contract LastTicketNFT is ERC721, Ownable {
 
     constructor() payable ERC721('LastTicketNFT', 'LT') {
         // initialize some values
-        mintPrice = 0.02 ether;
+        mintPrice = 0.01 ether;
         totalSupply = 0;
         maxSupply = 1000;
-        maxPerWallet = 3;
+        maxPerWallet = 2;
     }
 
     // argumenet named with _
